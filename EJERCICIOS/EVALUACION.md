@@ -73,7 +73,8 @@ constan de un título y una extensión.
 fecha, número de páginas y el número de ejemplares vendidos.
 
 
-![image](https://user-images.githubusercontent.com/101203503/175111160-cd58017d-0441-4206-a72a-eb4866d6f256.png)
+![image](https://user-images.githubusercontent.com/101203503/175119099-ec40bde8-1882-4107-acc0-4dc59a1a19b9.png)
+
 
 
 
