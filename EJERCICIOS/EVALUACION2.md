@@ -5,20 +5,33 @@ Ejercicio:
 
 1. Menciona los comandos DMl: (valor .85)
 
+SELECT, UPDATE, DELETE, INSERT
+
+
 2. Menciona 3 tipos de datos que existen: (valor .85)
+INT
+CHAR
+DATE
+
 
 
 3. ¿Qué diferencia existe entre TRUNCATE y DELETE?(valor .85)
 
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
 
+
+
 5. ¿Qué diferencia hay entre los tipos de datos VARCHAR y CHAR? (valor .85)
 
+En los datos de tipo char se reserva un espacio de memoria mientras que en VARCHAR el espacio se ajusta al tamaño del dato
+introdicido sin necesariamente ocupar la totalidad de espacio reservado si no se ocupó.
 
 6. Defina brevemente el significado de las siglas SQL(valor .85)
-
+Structured Query Language lenguaje de consulta estructurado que permite realizar consultas y recuperar información de una
+manera sencila por medio de calculos relacionales y algebrícos.
 
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
+ Es una herramineta con interfce visual que peremite la construcción de diagramas de bases de datos relacionales.
 
 ## Práctica 5.
 ### Gestores de base de datos
@@ -27,8 +40,15 @@ Objetivo: Categorizar los distintos gestores de base de datos que existen y señ
 ventajas y desventajas
 
 Evaluación: Conoce los tipos de gestores de base de datos 3 puntos.
+MySQL, MariaDB, SQLite
 
 Domina sus diferencias de los gestores de base de datos mencionados 3 puntos
+Establecen vínculos o relaciones entre datos
+Sirven como interface entre las bases de datos, los usuarios y las aplicaciones
+Permite realizar consultas
+MySQL proyecto de código abierto de ORACLE
+SQLITE disponible al público
+MariaDB soporta muchos motores de almcenamiento
 
 Ejercicio:
 
