@@ -122,7 +122,11 @@ folio VARCHAR(20),
 cantidad float,
 fecha DATE,
 id_fab1 VARCHAR(50),
-cod_prod1 VARCHAR(10)  
+FOREIGN KEY (id_fab1) REFERENCES fabricante(id_fab),  
+cod_prod1 VARCHAR(10),  
+FOREIGN KEY (cod_prod1) REFERENCES producto(cod_prod)  
 );
+
+
 
 
