@@ -16,10 +16,12 @@ DATE
 
 
 3. ¿Qué diferencia existe entre TRUNCATE y DELETE?(valor .85)
+Truncate 
+TRUNCATE es una operación DDL que borra todo el coentenido de una tabla miemtras DELETE es una operación DML que permite el borrado selectivo de filas de una tabla
 
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
 
-
+     Es una caraceristica que se agrega a un campo para especificar que tienen datos que no se repetiten en ninguna tabla
 
 5. ¿Qué diferencia hay entre los tipos de datos VARCHAR y CHAR? (valor .85)
 
