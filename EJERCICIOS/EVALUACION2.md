@@ -28,7 +28,7 @@ introdicido sin necesariamente ocupar la totalidad de espacio reservado si no se
 
 6. Defina brevemente el significado de las siglas SQL(valor .85)
 Structured Query Language lenguaje de consulta estructurado que permite realizar consultas y recuperar información de una
-manera sencila por medio de calculos relacionales y algebrícos.
+manera sencilla por medio de calculos relacionales y algebrícos.
 
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
  Es una herramineta con interfce visual que peremite la construcción de diagramas de bases de datos relacionales.
