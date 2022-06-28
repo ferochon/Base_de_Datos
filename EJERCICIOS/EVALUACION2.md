@@ -60,41 +60,9 @@ principales, las ventajas y desventajas. (valor 6)
 ![image](https://user-images.githubusercontent.com/91554777/170415427-e2b7321b-a97f-43b0-ac24-6e506c307e6b.png)
 
 
-GESTORES DE BASES DE DATOS
-MySQL	MariaDB	SQLite
-Característica	Característica	Característica
-Gratuito
-Multiplataforma
-Interfaz gráfica
-Sistema de respaldo de datos
-Sistema de mantto. y reparación
-Acceso simultaneo a varios empleados
-Privilegios de seguridad
-Función de replicación de la BD	Es básicamente un fork de MySQL, cada vez que sale una nueva versión de MySQL sale una de MariaDB, su propósito es mantener una base de datos libre
-	Versión de SQL reducida para aplicaciones pequeñas que requieren bases de datos.
-Multisistema
-Código abierto
-Soporta múltiples tablas
-No necesita configuración
-Autonomía
+![image](https://user-images.githubusercontent.com/101203503/176059164-c6778f3f-b04e-4d7a-b04e-6c48c4f1f8ad.png)
 
-Ventajas	Ventajas	Ventajas
-MySQL es además un software fácil de instalar y también fácil de configurar.
-Otra de sus ventajas principales es el rendimiento, sobre todo si ejecutamos consultas sencillas.
-Tiende a ser extremadamente estable	Nuevos motores de almacenamiento más eficientes que la hacen más rápida.
-Añadidura de estadísticas para índices y tablas que ayudan a la optimización de la base de datos.
-En general mejoras para aumentar el rendimiento y la eficiencia con respecto a MySQL
-	Fácil de usar
-Ideal para desarrollo de apps móviles
-Las consultas se realizan en SQL lo que reduce la complejidad del código de la app
-Ocupa poco espacio
 
-Desventajas	Desventajas	Desventajas
-En sistemas con mucho tráfico esto puede volverse un gran problema	La migración de MySQL a MariaDB es compleja.
-	No es fácilmente escalable
-No cuenta con funciones de seguridad ni permisos de administración de usuario lo que puede hacerlo inseguro
-Es monousuario
-No ideal para bases de datos de gran tamaño (restringido a 2 GB)
 
 
 
