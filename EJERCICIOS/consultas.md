@@ -31,6 +31,14 @@ INNER JOIN sucursal ON publican.codigo_de_sucursal2=sucursal.codigo_de_sucursal
 WHERE nombre_periodista='TITO';
 
 * Mustra que seccion esta en x revista, en que sucursal se imprimio y que empleados estan en esa sucursal.
+
+SELECT titulo_secciones, titulo_revista, codigo_de_sucursal, nombre_empleado, apellidos_empleado
+FROM  secciones
+INNER JOIN revista ON secciones.numero_de_registro3= revista.numero_de_registro
+INNER JOIN publican ON revista.numero_de_registro= publican.numero_de_registro1
+INNER JOIN sucursal ON publican.codigo_de_sucursal2 =sucursal.codigo_de_sucursal 
+INNER JOIN empleados ON sucursal.codigo_de_sucursal=empleados.codigo_de_sucursal1
+
 * En la tabla peridistas muestra solo los que escriban sobre cine
 * De la tabla revistas muestra las que sean de publicacion quincenal
 * Muestra el nombre de ka revista que se hayan impreso despues del 30 de septiembre del 2021
