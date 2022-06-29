@@ -1,7 +1,7 @@
 En la BD utilizada en clase realiza las siguientes consultas:
 
 * La tabla empleado
-* 
+ 
 SELECT nombre_periodista, apellidos_periodista, especialidad
 FROM periodistas;
 
@@ -9,9 +9,9 @@ FROM periodistas;
 
 SELECT titulo
 FROM revista;
-* 
+ 
 * Los nombres, apellidos y especialidad de los periodostas
-* 
+ 
 SELECT nombre_periodista, apellidos_periodista, especialidad
 FROM periodistas;
 
@@ -21,12 +21,14 @@ SELECT nombre_empleado, codigo_de_sucursal
 FROM empleados INNER JOIN sucursal ON sucursal.codigo_de_sucursal=empleados.codigo_de_sucursal1
 WHERE nombre_empleado = 'Angelica';
 
-SELECT nombre_periodista, apellidos_periodista, especialidad
-FROM periodistas;
-
 * Muestra que periodistas colaboraron en x revista y en que sucursal se publico la revista
 
-
+SELECT nombre_periodista, apellidos_periodista, titulo, codigo_de_sucursal
+FROM periodistas INNER JOIN trabajan ON periodistas.nif=trabajan.nif1
+INNER JOIN revista ON trabajan.numero_de_registro2=revista.numero_de_registro
+INNER JOIN publican ON revista.numero_de_registro=publican.numero_de_registro1
+INNER JOIN sucursal ON publican.codigo_de_sucursal2=sucursal.codigo_de_sucursal
+WHERE nombre_periodista='TITO';
 
 * Mustra que seccion esta en x revista, en que sucursal se imprimio y que empleados estan en esa sucursal.
 * En la tabla peridistas muestra solo los que escriban sobre cine
