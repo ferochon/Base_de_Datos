@@ -60,13 +60,5 @@ WHERE fecha >'2021-09-30';
 
 * Muestra el nombre de la revista que se haya publicado en la sucursal 1 cuyos ejemplares tengan más de 80 páginas.
 
-SELECT titulo_revista, codigo_de_sucursal, ID, numero_de_paginas
-FROM sucursal
-INNER JOIN publican ON sucursal.codigo_de_sucursal=publican.codigo_de_sucursal2
-INNER JOIN revista ON publican.numero_de_registro1=revista.numero_de_registro
-INNER JOIN ejemplares ON revista.numero_de_registro=ejemplares.numero_de_registro4
-WHERE  codigo_de_sucursal=01 && numero_de_paginas > 80;
-
-
 https://www.db-fiddle.com/f/iAUjGLoFoHtam2pK68Xh1B/1
 
