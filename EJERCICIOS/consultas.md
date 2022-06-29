@@ -53,6 +53,10 @@ WHERE periodicidad='QUINCENAL';
 
 * Muestra el nombre de ka revista que se hayan impreso despues del 30 de septiembre del 2021
 
+SELECT titulo_revista,fecha
+FROM revista
+INNER JOIN ejemplares ON revista.numero_de_registro=ejemplares.numero_de_registro4
+WHERE fecha >'2021-09-30';
 
 * Muestra el nombre de la revista que se haya publicado en la sucursal 1 cuyos ejemplares tengan más de 80 páginas.
 
