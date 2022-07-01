@@ -33,6 +33,14 @@ mostrará dos columnas, una con el nombre del fabricante y otra con el número d
 productos que tiene. Ordene el resultado descendentemente por el número de
 productos. (valor 4.5)
 
+SELECT nombre_fab, COUNT(cod_prod)
+FROM fabricante
+INNER JOIN fab_prod ON fabricante.id_fab=fab_prod.id_fab1
+INNER JOIN producto ON fab_prod.cod_prod1=producto.cod_prod
+GROUP BY(nombre_fab)
+ORDER BY (nombre_fab) DESC;
+
+
 3. Muestra el precio máximo, precio mínimo y precio medio de los productos de cada
 uno de los fabricantes. El resultado mostrará el nombre del fabricante junto con los
 datos que se solicitan. (valor 4.5)
