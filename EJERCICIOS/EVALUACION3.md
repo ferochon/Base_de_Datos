@@ -9,7 +9,11 @@ Ejercicio:
 
 1. ¿Qué es un DataWarehouse?(valor 2)
 
+  Es un repositorio unificado para todos los datos que recogen los diversos sistemas de una empresa.
+
 2. Realiza un diseño del modelo en estrella (valor 2)
+
+
 
 3. Realiza un diseño del modelo copo de nieve (valor 2)
 
