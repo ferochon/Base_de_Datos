@@ -54,6 +54,16 @@ ORDER BY (nombre_fab) DESC;
 uno de los fabricantes. El resultado mostrará el nombre del fabricante junto con los
 datos que se solicitan. (valor 4.5)
 
+ USE Fabricantes;
+
+
+SELECT nombre_fab, MAX(precio), MIN(precio), AVG(precio)
+FROM fabricante
+INNER JOIN fab_prod ON fabricante.id_fab=fab_prod.id_fab1
+INNER JOIN producto ON fab_prod.cod_prod1=producto.cod_prod
+GROUP BY(nombre_fab);
+
+
 4. Muestra el nombre de cada fabricante, junto con el precio máximo, precio mínimo,
 precio medio y el número total de productos de los fabricantes que tienen un precio
 medio superior a 200€. Es necesario mostrar el nombre del fabricante. (valor 4.5)
