@@ -13,6 +13,11 @@ Ejercicio:
 
 2. Realiza un diseño del modelo en estrella (valor 2)
 
+    De hecho un red de computadoras puede ser un modelo en estrella dónde el servidor provee de recusrsos a un conjunto de "clientes"
+
+![image](https://user-images.githubusercontent.com/101203503/177344476-eec03c68-30a8-4e3a-86f8-47cd7cb28c7a.png)
+
+
 
 
 3. Realiza un diseño del modelo copo de nieve (valor 2)
