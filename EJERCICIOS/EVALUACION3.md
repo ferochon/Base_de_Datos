@@ -23,6 +23,12 @@ Ejercicio:
 3. Realiza un diseño del modelo copo de nieve (valor 2)
 
 
+Se llama como de nieve porque su diagrama se asemeja a un copo de nieve.
+
+![image](https://user-images.githubusercontent.com/101203503/177872302-1e38a6ce-8e73-4f32-8cd1-12606bf0e85c.png)
+
+
+
 ## Práctica 7
 ### Funciones en SQL
 Objetivo: Demostrar el uso y aplicación en una base de datos para mejorar la gestión
