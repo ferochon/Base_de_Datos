@@ -17,6 +17,9 @@ Ejercicio:
 
 ![image](https://user-images.githubusercontent.com/101203503/177344476-eec03c68-30a8-4e3a-86f8-47cd7cb28c7a.png)
 
+![image](https://user-images.githubusercontent.com/101203503/177885748-f5ec30f0-ef58-46af-b0cd-5fab858dbc4c.png)
+
+
 
 
 
