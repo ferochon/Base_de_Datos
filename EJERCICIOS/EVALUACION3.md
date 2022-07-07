@@ -20,17 +20,17 @@ Ejercicio:
 ![image](https://user-images.githubusercontent.com/101203503/177885748-f5ec30f0-ef58-46af-b0cd-5fab858dbc4c.png)
 
 
-
-
-
 3. Realiza un diseño del modelo copo de nieve (valor 2)
+
+
+
 
 
 Se llama como de nieve porque su diagrama se asemeja a un copo de nieve.
 
 ![image](https://user-images.githubusercontent.com/101203503/177872302-1e38a6ce-8e73-4f32-8cd1-12606bf0e85c.png)
 
-
+![image](https://user-images.githubusercontent.com/101203503/177886732-9c753058-7616-474f-ab6a-625cf49cc9f2.png)
 
 ## Práctica 7
 ### Funciones en SQL
