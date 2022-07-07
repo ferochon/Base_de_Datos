@@ -74,4 +74,12 @@ GROUP BY(nombre_fab);
 precio medio y el número total de productos de los fabricantes que tienen un precio
 medio superior a 200€. Es necesario mostrar el nombre del fabricante. (valor 4.5)
 
+https://www.db-fiddle.com/f/dboNhzkCAEpkTdoQiR6pQq/5
+
+SELECT nombre_fab, MAX(precio), MIN(precio), AVG (precio), COUNT(cod_prod)
+FROM fabricante
+INNER JOIN fab_prod ON fabricante.id_fab=fab_prod.id_fab1
+INNER JOIN producto ON fab_prod.cod_prod1=producto.cod_prod
+GROUP BY (nombre_fab)
+HAVING AVG(precio)>200;
 
