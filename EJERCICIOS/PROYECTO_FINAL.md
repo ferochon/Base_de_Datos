@@ -29,3 +29,43 @@ precio y categoría.
 un código de categoría único.
 
 ● Una pieza sólo puede pertenecer a una categoría.
+
+![image](https://user-images.githubusercontent.com/101203503/178055787-e6cd86fb-583b-4871-8757-0d64f0cd84e9.png)
+
+https://www.db-fiddle.com/f/aoF6hnHYorCB3cUsQHRv1g/0
+
+CREATE DATABASE proveedores_piezas;
+USE proveedores_piezas;
+
+CREATE TABLE prveedor(
+cod_prov INT UNSIGNED PRIMARY KEY,
+nom_prov VARCHAR(20),
+dir_prov VARCHAR(100),
+ciudad VARCHAR(20),
+provincia VARCHAR(20)
+);
+
+CREATE TABLE pieza(
+cod_pieza INT UNSIGNED PRIMARY KEY,
+nom_pieza VARCHAR(20),
+precio FLOAT UNSIGNED,
+color VARCHAR(20)
+);
+
+CREATE TABLE nota(
+cantidad_prov INT,
+fecha DATE,
+cod_prov1 INT UNSIGNED,
+FOREIGN KEY (cod_prov1) REFERENCES prveedor(cod_prov),
+cod_pieza1 INT UNSIGNED,
+FOREIGN KEY (cod_pieza1) REFERENCES pieza(cod_pieza)
+);
+
+CREATE TABLE categoria(
+cod_cat INT UNSIGNED,
+nom_cat VARCHAR(20),
+cod_pieza1 INT UNSIGNED,
+FOREIGN KEY (cod_pieza1) REFERENCES pieza(cod_pieza)
+);
+
+
