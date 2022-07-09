@@ -33,6 +33,13 @@ Subconsultas (En la cláusula WHERE)
 1. Devuelve todos los productos del fabricante Lenovo. (Sin utilizar INNER
 JOIN).
 
+https://www.db-fiddle.com/f/nLhAtXogcU7B5t72CdRe3E/6
+
+SELECT nom_prod, nombre_fab
+FROM fabricante
+LEFT JOIN fab_prod ON fabricante.id_fab=fab_prod.id_fab1
+LEFT JOIN producto ON fab_prod.cod_prod1= producto.cod_prod
+WHERE nombre_fab='LENOVO';
 
 2. Devuelve todos los datos de los productos que tienen el mismo precio que el
 producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
@@ -41,4 +48,11 @@ producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
 3. Lista el nombre del producto más caro del fabricante Lenovo.
 
 
-https://www.db-fiddle.com/f/nLhAtXogcU7B5t72CdRe3E/4
+https://www.db-fiddle.com/f/nLhAtXogcU7B5t72CdRe3E/6
+
+
+SELECT nombre_fab, MAX(nom_prod) 
+FROM fabricante
+LEFT JOIN fab_prod ON fabricante.id_fab=fab_prod.id_fab1
+LEFT JOIN producto ON fab_prod.cod_prod1= producto.cod_prod
+WHERE nombre_fab='LENOVO';
