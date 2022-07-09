@@ -14,13 +14,10 @@ FROM producto;
 
 2. Lista todas las columnas de la tabla producto.
 
-
 SELECT *
 FROM fabricante
 INNER JOIN fab_prod ON fabricante.id_fab=fab_prod.id_fab1
 INNER JOIN producto ON fab_prod.cod_prod1= producto.cod_prod;
-
-
 
 3. Devuelve una lista con el nombre del producto, precio y nombre de fabricante de
 todos los productos de la base de datos.
@@ -29,6 +26,7 @@ SELECT nombre_fab, nom_prod, precio
 FROM fabricante
 INNER JOIN fab_prod ON fabricante.id_fab=fab_prod.id_fab1
 INNER JOIN producto ON fab_prod.cod_prod1= producto.cod_prod;
+
 
 
 Subconsultas (En la cláusula WHERE)
