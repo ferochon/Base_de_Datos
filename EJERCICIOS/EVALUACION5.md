@@ -25,3 +25,6 @@ producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
 
 
 3. Lista el nombre del producto más caro del fabricante Lenovo.
+
+
+https://www.db-fiddle.com/f/nLhAtXogcU7B5t72CdRe3E/3
